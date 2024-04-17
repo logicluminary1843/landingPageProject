@@ -1,0 +1,14 @@
+.service-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; // Ensures the action buttons align to the bottom
+  }
+  
+  mat-card-header {
+    background-color: #f0f0f0; // Adds a background color to the card header for contrast
+  }
+  
+  mat-card-content {
+    flex-grow: 1; // Allows the content to fill the space
+  }
+  
