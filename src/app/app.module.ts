@@ -7,11 +7,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ServicesSectionComponent } from './services-section/services-section.component';
 import {MatCardModule} from '@angular/material/card';
 import { MatGridListModule } from '@angular/material/grid-list';
+import { BannerComponent } from './banner/banner.component';
+import { OurServicesComponent } from './our-services/our-services.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ServicesSectionComponent
+    ServicesSectionComponent,
+    BannerComponent,
+    OurServicesComponent
   ],
   imports: [
     BrowserModule,

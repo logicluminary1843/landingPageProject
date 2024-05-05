@@ -1,0 +1,29 @@
+video {
+    position: sticky; /* Keep the video in a fixed position */
+    top: 0; /* Position it at the top */
+    left: 0; /* Position it at the left */
+    width: 100%; /* Set width to cover the screen */
+    height: 100%; /* Set height to cover the screen */
+    object-fit: cover; /* Maintain aspect ratio and fill the screen */
+    z-index: -1; /* Set a lower z-index to keep it behind other content */
+}
+.custom-container-top{
+    height: 20%;
+    position: absolute;
+    top: 0;
+    padding: 0 60px;
+}
+.custom-container-buttom{
+    height: 80%;
+    position: absolute;
+    top: 200px;
+    .text-only{
+        padding: 0 0 0 120px;
+    }
+}
+.banner-wrapper{
+    position: relative;
+}
+.custom-font.lg{
+    font-size: 100px;
+}
