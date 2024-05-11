@@ -1,5 +1,5 @@
 .sevices-wrapper{
-    height: 1800px;
+    height: 2800px;
     .container-fluid{
         padding: 120px;
     }
@@ -9,6 +9,10 @@
     .custom-card{
         min-height: 400px;
         padding: 2px;
+        position: relative;
+        background-image: url('/assets/mint.png');
+    background-size: cover; /* Cover the entire container */
+    background-position: center;
         h3,p{
             color:#fff;
         }
@@ -19,4 +23,31 @@
 }
 .custom-font.lg{
     font-size: 120px;
+}
+.custom-card-client{
+    position: relative;
+}
+
+.container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.small-div {
+    transition: all 0.3s ease;
+}
+
+.small-div:hover {
+    transform: scale(1.2); /* Make the div 20% bigger */
+}
+.mint::before {
+    content: ""; /* Necessary for pseudo-element */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.1); /* Adjust the alpha value for the desired level of blur */
+    filter: blur(10px); /* Adjust the blur radius as needed */
 }
