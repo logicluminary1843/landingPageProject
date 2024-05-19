@@ -3,25 +3,27 @@ video {
     top: 0; /* Position it at the top */
     left: 0; /* Position it at the left */
     width: 100%; /* Set width to cover the screen */
-    min-height: 100vh; /* Set height to cover the screen */
+    height: 100%; /* Set height to cover the screen */
     object-fit: cover; /* Maintain aspect ratio and fill the screen */
     z-index: -1; /* Set a lower z-index to keep it behind other content */
 }
 .custom-container-top{
-    min-height: 50vh;
     position: absolute;
-    top: 0;
+    top: 80px;
     padding: 0 60px;
 }
 .custom-container-buttom{
-    min-height: 50vh;
+    height: 20%;
     position: absolute;
     top: 200px;
     .text-only{
         padding: 0 0 0 120px;
     }
 }
-.banner-wrapper{
+.footer-wrapper{
     position: relative;
+    height: 200px;
 }
-
+.custom-font.lg{
+    font-size: 100px;
+}

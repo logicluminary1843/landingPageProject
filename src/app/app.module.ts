@@ -9,13 +9,15 @@ import {MatCardModule} from '@angular/material/card';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { BannerComponent } from './banner/banner.component';
 import { OurServicesComponent } from './our-services/our-services.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ServicesSectionComponent,
     BannerComponent,
-    OurServicesComponent
+    OurServicesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

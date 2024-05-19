@@ -1,8 +1,6 @@
 .sevices-wrapper{
-    height: 2800px;
-    .container-fluid{
-        padding: 120px;
-    }
+    min-height: 100vh;
+    
     .card{
         background-color: #4d5154;
     }
@@ -21,9 +19,7 @@
         }
     }
 }
-.custom-font.lg{
-    font-size: 120px;
-}
+
 .custom-card-client{
     position: relative;
 }
